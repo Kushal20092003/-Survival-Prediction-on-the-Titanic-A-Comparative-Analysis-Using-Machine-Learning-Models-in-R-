@@ -56,4 +56,16 @@ Format: CSV
 
 Files Used:
 train.csv – Used to build and train models
+
 test.csv – Used for prediction
+
+<img width="452" height="480" alt="image" src="https://github.com/user-attachments/assets/f9e01a54-da0d-429e-8c81-b94dde26e5c6" />
+
+## Methodology
+
+This study uses supervised learning algorithms to classify passengers' survival based on features in the Titanic dataset. The three classification techniques applied are:
+- Logistic Regression
+- K-Nearest Neighbours (KNN)
+- Decision Tree
+  
+All analyses were performed using R and packages like caret, ggplot2, rpart, and class.
