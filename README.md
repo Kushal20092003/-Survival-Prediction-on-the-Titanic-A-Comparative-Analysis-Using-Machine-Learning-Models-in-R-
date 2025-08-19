@@ -69,7 +69,7 @@ This study uses supervised learning algorithms to classify passengers' survival 
 
 [K-Nearest Neighbours](#k-nearest-neighbours)
 
-[Decision Tree](decision-tree)
+[Decision Tree](#decision-tree)
   
 All analyses were performed using R and packages like caret, ggplot2, rpart, and class.
 
