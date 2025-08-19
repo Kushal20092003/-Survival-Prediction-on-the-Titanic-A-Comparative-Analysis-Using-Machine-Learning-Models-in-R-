@@ -69,3 +69,11 @@ This study uses supervised learning algorithms to classify passengers' survival 
 - Decision Tree
   
 All analyses were performed using R and packages like caret, ggplot2, rpart, and class.
+
+- Data Preprocessing
+Before modelling, the dataset underwent preprocessing:
+•	Missing values in Age were filled with the median.
+•	Missing Embarked values were replaced with the mode ("S").
+•	Non-numeric variables were encoded as factors.
+•	Irrelevant columns like Name, Ticket, and Cabin were dropped.
+<img width="468" height="162" alt="image" src="https://github.com/user-attachments/assets/7b42b7a9-33df-478f-bda6-bbe547c5cf1f" />
