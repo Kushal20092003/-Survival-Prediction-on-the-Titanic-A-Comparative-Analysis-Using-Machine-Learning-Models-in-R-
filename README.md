@@ -179,3 +179,21 @@ Output :
    <img width="452" height="427" alt="image" src="https://github.com/user-attachments/assets/193b6b57-3711-4218-8b29-1afe0bc8740a" />
 
 - Survival Count Plot showed more passengers perished than survived.
+
+2) Calculate the proportion of survival by gender .
+  
+  <img width="423" height="352" alt="image" src="https://github.com/user-attachments/assets/32867975-e4d4-45c3-9c9a-b737807efa8f" />
+
+- Survival by Gender indicated females had a significantly higher survival rate, reflecting the “women and children first” evacuation policy.
+
+3) Calculate the survival rate by passenger class.
+
+   <img width="381" height="413" alt="image" src="https://github.com/user-attachments/assets/945a8e25-46ec-4294-8029-b0c6cfce5910" />
+
+- Survival by Class confirmed higher survival rates among first-class passengers.
+
+4) Calculate Age distribution by survival.
+
+   <img width="337" height="315" alt="image" src="https://github.com/user-attachments/assets/cce94a5f-ce4e-4aa8-b0e0-a41502769bf3" />
+
+- Age Distribution revealed that children had better survival chances, though many passengers in the 20–40 age group also survived.
