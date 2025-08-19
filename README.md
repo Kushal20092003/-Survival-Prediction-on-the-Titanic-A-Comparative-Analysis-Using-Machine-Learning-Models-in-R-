@@ -246,3 +246,13 @@ Output :
   Observations:
   - The tree captured non-linear interactions between features.
   - May overfit without pruning or cross-validation, though accuracy was comparable to logistic regression.
+
+## Conclusion and Summary
+
+This project used R to build and compare three classification models—Logistic Regression, KNN, and Decision Tree—to predict Titanic passenger survival. After cleaning and exploring the data, all models were evaluated on accuracy and interpretability.
+
+- Logistic Regression performed the best (79.1% accuracy, AUC = 0.84) and clearly showed that gender, class, and fare were key predictors.
+- KNN gave decent results (76.27%  accuracy) but was less interpretable.
+- Decision Tree was highly visual and intuitive (77.97%  accuracy).
+- 
+In conclusion, all models were effective, but Logistic Regression provided the best balance of performance and insights.
