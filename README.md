@@ -64,9 +64,12 @@ test.csv – Used for prediction
 ## Methodology
 
 This study uses supervised learning algorithms to classify passengers' survival based on features in the Titanic dataset. The three classification techniques applied are:
+
 [Logistic Regression](#logistic-regression)
-- K-Nearest Neighbours (KNN)
-- Decision Tree
+
+[K-Nearest Neighbours (KNN)](#k-nearest-neighbours-(knn))
+
+[Decision Tree](decision-tree)
   
 All analyses were performed using R and packages like caret, ggplot2, rpart, and class.
 
@@ -86,5 +89,34 @@ d) Irrelevant columns like Name, Ticket, and Cabin were dropped.
   
 Logistic Regression is a probabilistic, linear classifier used for binary classification. It models the probability of survival (1) versus not surviving (0).
 
+Output :
+
 <img width="452" height="230" alt="image" src="https://github.com/user-attachments/assets/923d78c5-311e-4457-963a-a00d5c07c116" />
 
+- Significant Predictors:
+  
+a) Sexmale: Highly significant (p < 0.001)
+
+b) Pclass2 and Pclass3: Usually significant
+
+- Observations :
+  
+a) Being male and in lower class reduces odds of survival.
+
+b) Higher fare and younger age slightly improved chances of survival.
+
+- Evaluation, ROC curve and AUC output :
+
+<img width="452" height="223" alt="image" src="https://github.com/user-attachments/assets/573b1621-c6b9-4fa8-b6d0-0b274700f107" />
+
+Accuracy : 79.1 %
+
+Sensitivity : 85.32 %
+
+Specificity : 69.12 %
+
+<img width="425" height="455" alt="image" src="https://github.com/user-attachments/assets/9d7753f3-f90d-4163-8304-0df9c5779435" />
+
+<img width="452" height="88" alt="image" src="https://github.com/user-attachments/assets/ce52d7dd-deb9-4b60-83f8-b7e0b4516797" />
+
+Expected AUC - 0.8408 (Strong classifier)
