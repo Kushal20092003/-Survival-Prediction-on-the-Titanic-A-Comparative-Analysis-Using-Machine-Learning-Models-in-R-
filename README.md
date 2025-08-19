@@ -71,9 +71,20 @@ This study uses supervised learning algorithms to classify passengers' survival 
 All analyses were performed using R and packages like caret, ggplot2, rpart, and class.
 
 - Data Preprocessing
+  
 Before modelling, the dataset underwent preprocessing:
-•	Missing values in Age were filled with the median.
-•	Missing Embarked values were replaced with the mode ("S").
-•	Non-numeric variables were encoded as factors.
-•	Irrelevant columns like Name, Ticket, and Cabin were dropped.
-<img width="468" height="162" alt="image" src="https://github.com/user-attachments/assets/7b42b7a9-33df-478f-bda6-bbe547c5cf1f" />
+
+a) Missing values in Age were filled with the median.
+
+b) Missing Embarked values were replaced with the mode ("S").
+
+c) Non-numeric variables were encoded as factors.
+
+d) Irrelevant columns like Name, Ticket, and Cabin were dropped.
+
+- Logistic Regression
+  
+Logistic Regression is a probabilistic, linear classifier used for binary classification. It models the probability of survival (1) versus not surviving (0).
+
+<img width="452" height="230" alt="image" src="https://github.com/user-attachments/assets/923d78c5-311e-4457-963a-a00d5c07c116" />
+
