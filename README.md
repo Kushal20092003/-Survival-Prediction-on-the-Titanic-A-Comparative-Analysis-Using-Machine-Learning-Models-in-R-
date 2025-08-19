@@ -120,3 +120,12 @@ Specificity : 69.12 %
 <img width="452" height="88" alt="image" src="https://github.com/user-attachments/assets/ce52d7dd-deb9-4b60-83f8-b7e0b4516797" />
 
 Expected AUC - 0.8408 (Strong classifier)
+
+### K-Nearest Neighbours (KNN)
+
+KNN is a non-parametric algorithm that assigns class based on the majority of its k nearest neighbours in the feature space.
+Preprocessing for KNN:
+
+a) KNN requires scaled numerical variables.
+
+b) Categorical variables were converted into dummy variables.
