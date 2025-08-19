@@ -216,19 +216,22 @@ Output :
   - AUC (ROC Curve):  0.8408 – indicating strong discrimination ability.
   - Confusion Matrix: High true positive rate for female passengers and those in higher classes.
 
-Interpretation:
-
-•	The model supports the "women and children first" evacuation policy.
-•	Logistic Regression was easy to interpret, making it ideal for explanatory purposes.
-K-Nearest Neighbors (KNN) Results
-Model Parameters:
-•	Chosen value of k = 5 gave the best balance between bias and variance.
-Performance Metrics:
-•	Accuracy: 76.27 %
-•	Confusion matrix showed good performance for female passengers, but more errors in predicting survival of males.
-Observations:
-•	Sensitive to data scaling and class imbalance.
-•	Non-parametric approach worked reasonably well but lacked the interpretability of logistic regression.
+   Interpretation:
+  - The model supports the "women and children first" evacuation policy.
+  - Logistic Regression was easy to interpret, making it ideal for explanatory purposes.
+    
+- K-Nearest Neighbors (KNN) Results
+  
+  Model Parameters:
+  -Chosen value of k = 5 gave the best balance between bias and variance.
+  
+  Performance Metrics:
+  - Accuracy: 76.27 %
+  - Confusion matrix showed good performance for female passengers, but more errors in predicting survival of males.
+    
+  Observations:
+  - Sensitive to data scaling and class imbalance.
+  - Non-parametric approach worked reasonably well but lacked the interpretability of logistic regression.
 
 Decision Tree Results
 Visualization:
