@@ -14,8 +14,6 @@
 
 [Counclusion and Summary](#counclusion-and-summary)
 
-[References](#references)
-
 
 ## Introduction
 
@@ -254,5 +252,7 @@ This project used R to build and compare three classification models—Logistic 
 - Logistic Regression performed the best (79.1% accuracy, AUC = 0.84) and clearly showed that gender, class, and fare were key predictors.
 - KNN gave decent results (76.27%  accuracy) but was less interpretable.
 - Decision Tree was highly visual and intuitive (77.97%  accuracy).
-- 
+  
 In conclusion, all models were effective, but Logistic Regression provided the best balance of performance and insights.
+
+
