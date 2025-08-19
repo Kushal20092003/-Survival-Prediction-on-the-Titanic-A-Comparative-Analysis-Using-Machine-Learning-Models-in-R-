@@ -8,6 +8,8 @@
 
 [Methodology](#methodology)
 
+[Visualization](#visualization)
+
 [Results and discussion](#results-and-discussion)
 
 [Counclusion and Summary](#counclusion-and-summary)
@@ -161,3 +163,19 @@ Tree Visualization clearly showed the most important decision rules , first spli
 Female → more likely to survive
 
 Male + 3rd class → less likely
+
+- Confusion Matrix
+
+Output :
+
+  <img width="452" height="279" alt="image" src="https://github.com/user-attachments/assets/fb053fd3-ade0-420f-821f-f4b556cb170a" />
+
+  Accuracy = 77.97%
+
+## Visualization
+
+1) Calculate the survival count
+
+   <img width="452" height="427" alt="image" src="https://github.com/user-attachments/assets/193b6b57-3711-4218-8b29-1afe0bc8740a" />
+
+- Survival Count Plot showed more passengers perished than survived.
