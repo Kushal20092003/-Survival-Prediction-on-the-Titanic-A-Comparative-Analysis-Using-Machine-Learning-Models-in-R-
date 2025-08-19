@@ -197,3 +197,48 @@ Output :
    <img width="337" height="315" alt="image" src="https://github.com/user-attachments/assets/cce94a5f-ce4e-4aa8-b0e0-a41502769bf3" />
 
 - Age Distribution revealed that children had better survival chances, though many passengers in the 20–40 age group also survived.
+
+## Results and discussion
+
+  Logistic Regression, K-Nearest Neighbors (KNN), and Decision Tree — on the Titanic dataset. The goal was to predict passenger survival and evaluate each model’s performance based on classification accuracy, interpretability, and insights from the data.
+  
+- Logistic Regression Results
+  
+  Key Findings:
+  
+  - Sex (male): Strong negative predictor (males less likely to survive).
+  - Pclass: Passengers in 3rd class were significantly less likely to survive.
+  - Fare: Higher fare slightly increased survival probability.
+
+  Performance Metrics:
+
+  - Accuracy: 79.1%
+  - AUC (ROC Curve):  0.8408 – indicating strong discrimination ability.
+  - Confusion Matrix: High true positive rate for female passengers and those in higher classes.
+
+Interpretation:
+
+•	The model supports the "women and children first" evacuation policy.
+•	Logistic Regression was easy to interpret, making it ideal for explanatory purposes.
+K-Nearest Neighbors (KNN) Results
+Model Parameters:
+•	Chosen value of k = 5 gave the best balance between bias and variance.
+Performance Metrics:
+•	Accuracy: 76.27 %
+•	Confusion matrix showed good performance for female passengers, but more errors in predicting survival of males.
+Observations:
+•	Sensitive to data scaling and class imbalance.
+•	Non-parametric approach worked reasonably well but lacked the interpretability of logistic regression.
+
+Decision Tree Results
+Visualization:
+•	The tree split first on Sex, then Pclass, and Fare, confirming the same insights seen in logistic regression.
+•	Clear path: Female + 1st class → high survival, Male + 3rd class → low survival.
+Performance Metrics:
+•	Accuracy: 77.97%
+•	Interpretability: High – easy to explain decisions visually using a tree diagram.
+Observations:
+•	The tree captured non-linear interactions between features.
+•	May overfit without pruning or cross-validation, though accuracy was comparable to logistic regression.
+<img width="468" height="644" alt="image" src="https://github.com/user-attachments/assets/3f995a34-851d-4f57-9d4e-00d68de99856" />
+
