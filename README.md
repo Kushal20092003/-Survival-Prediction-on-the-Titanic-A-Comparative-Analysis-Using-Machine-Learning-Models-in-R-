@@ -67,7 +67,7 @@ This study uses supervised learning algorithms to classify passengers' survival 
 
 [Logistic Regression](#logistic-regression)
 
-[K-Nearest Neighbours (KNN)](#k-nearest-neighbours-(knn))
+[K-Nearest Neighbours](#k-nearest-neighbours)
 
 [Decision Tree](decision-tree)
   
@@ -121,7 +121,7 @@ Specificity : 69.12 %
 
 Expected AUC - 0.8408 (Strong classifier)
 
-### K-Nearest Neighbours (KNN)
+### K-Nearest Neighbours
 
 KNN is a non-parametric algorithm that assigns class based on the majority of its k nearest neighbours in the feature space.
 Preprocessing for KNN:
