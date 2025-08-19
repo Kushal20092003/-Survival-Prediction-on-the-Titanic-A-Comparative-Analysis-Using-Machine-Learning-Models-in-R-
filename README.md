@@ -148,4 +148,16 @@ b) Performs reasonably well but may misclassify some female or older passengers.
 
 c) Confusion Matrix indicated some false positives, especially for predicting survival among males in 3rd class.
 
+###  Decision Tree
 
+Decision Trees split data into branches based on feature thresholds, forming a tree-like structure. It's intuitive and easy to visualize.
+
+Output :
+
+<img width="438" height="331" alt="image" src="https://github.com/user-attachments/assets/9de1a210-e697-48bc-a966-5f5b51ce895e" />
+
+Tree Visualization clearly showed the most important decision rules , first split on Sex, then Pclass, followed by Fare and Age.
+
+Female → more likely to survive
+
+Male + 3rd class → less likely
