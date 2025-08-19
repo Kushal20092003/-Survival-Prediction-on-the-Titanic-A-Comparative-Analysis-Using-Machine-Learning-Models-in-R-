@@ -12,7 +12,7 @@
 
 [Results and discussion](#results-and-discussion)
 
-[Counclusion and Summary](#counclusion-and-summary)
+[Conclusion and Summary](#conclusion-and-summary)
 
 ## Introduction
 
