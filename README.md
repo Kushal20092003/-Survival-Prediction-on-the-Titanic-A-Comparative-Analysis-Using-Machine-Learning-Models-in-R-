@@ -2,8 +2,6 @@
 
 [Introduction](#Introduction)
 
-[Rationale](#rationale)
-
 [Aim and Objectives](#aim-and-objectives)
 
 [Data](#data)
@@ -27,24 +25,35 @@ This project uses a subset of the Titanic passenger data to explore how differen
 
 Beyond just model accuracy, this project aims to provide insights into the predictive power of various features and examine how well these algorithms generalize on unseen data. The findings can also demonstrate the potential and limitations of different algorithms when applied to real-world classification problems.
 
-## Rationale
-
-The field of data science has revolutionized how we interpret, understand, and derive insights from complex datasets. One of the most popular datasets in the data science community is the Titanic dataset, which offers a historical yet structured setting to apply and compare various machine learning algorithms. Despite its simplicity, the dataset reflects real-world characteristics—missing values, categorical variables, and non-linear relationships—that make it ideal for learning and testing classification models.
-This project aims to not only predict survival outcomes using machine learning models but also to critically examine the effectiveness of different algorithms in doing so. The rationale behind choosing this dataset lies in its educational value, interpretability, and the rich context it provides. It bridges the gap between theoretical concepts and practical implementation by offering a meaningful and historic scenario in which modern-day analytics can be applied.
-Moreover, the Titanic dataset provides a balanced challenge for both beginners and intermediate practitioners. It includes variables such as age, gender, ticket class, and fare—which can be intuitively understood by humans—allowing for the visualization and justification of model decisions. This interpretability is essential in evaluating not just how models perform but why they make certain predictions.
-Another key reason for choosing this problem is that it allows for experimentation with a range of techniques, from basic statistical models like Logistic Regression to more complex algorithms like K-Nearest Neighbours (KNN) and Decision Trees. Each method brings unique strengths to the table—logistic regression provides explainability, KNN emphasizes proximity-based learning, and decision trees excel at rule-based segmentation. This project allows for a comparison of these approaches in terms of accuracy, usability, and interpretability, which is valuable for anyone aiming to work with predictive analytics in real-world scenarios.
-Ultimately, this exercise is not just about building predictive models, but about enhancing understanding of the data, improving problem-solving skills, and gaining a deeper appreciation of the role machine learning plays in data-driven decision-making.
-
 ## Aim and Objectives
 
 - Aim:
 To build and compare classification models that predict the survival of passengers aboard the Titanic using different machine learning techniques in R.
 
 - Objectives:
-•	To explore, visualize, and preprocess the Titanic dataset for analysis.
-•	To implement and apply three classification algorithms: Logistic Regression, K-Nearest Neighbours (KNN), and Decision Tree using R.
-•	To evaluate and compare the performance of the models using metrics such as accuracy, confusion matrix, and ROC curves.
-•	To interpret model results and identify key factors influencing passenger survival.
-•	To demonstrate the end-to-end data science workflow using R, from data cleaning to predictive modelling and result interpretation.
+  
+a) To explore, visualize, and preprocess the Titanic dataset for analysis.
 
+b) To implement and apply three classification algorithms: Logistic Regression, K-Nearest Neighbours (KNN), and Decision Tree using R.
 
+c) To evaluate and compare the performance of the models using metrics such as accuracy, confusion matrix, and ROC curves.
+
+d) To interpret model results and identify key factors influencing passenger survival.
+
+e) To demonstrate the end-to-end data science workflow using R, from data cleaning to predictive modelling and result interpretation.
+
+## Data
+
+The dataset used in this project is the Titanic: Machine Learning from Disaster dataset, available publicly on Kaggle. It contains detailed information about the passengers aboard the RMS Titanic, which sank on April 15, 1912.
+
+- Data Source
+  
+Dataset name: Titanic - Machine Learning from Disaster
+  
+Source: Kaggle 
+
+Format: CSV
+
+Files Used:
+train.csv – Used to build and train models
+test.csv – Used for prediction
