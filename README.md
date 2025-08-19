@@ -129,3 +129,23 @@ Preprocessing for KNN:
 a) KNN requires scaled numerical variables.
 
 b) Categorical variables were converted into dummy variables.
+
+Output :
+
+<img width="452" height="273" alt="image" src="https://github.com/user-attachments/assets/92cb9b3a-e685-4465-a60f-338476ace3c3" />
+
+Accuracy = 76.27 %
+
+Precision = 78.63%
+
+Recall = 84.4%
+
+- Observations:
+
+a) Slightly lower accuracy than logistic regression.
+
+b) Performs reasonably well but may misclassify some female or older passengers.
+
+c) Confusion Matrix indicated some false positives, especially for predicting survival among males in 3rd class.
+
+
