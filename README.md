@@ -1,4 +1,4 @@
-<img width="468" height="584" alt="image" src="https://github.com/user-attachments/assets/e2e4c919-f9e2-4b49-9bb1-34bfc1d9b7dd" /># -Survival-Prediction-on-the-Titanic-A-Comparative-Analysis-Using-Machine-Learning-Models-in-R-
+# -Survival-Prediction-on-the-Titanic-A-Comparative-Analysis-Using-Machine-Learning-Models-in-R-
 
 [Introduction](#Introduction)
 
