@@ -233,15 +233,16 @@ Output :
   - Sensitive to data scaling and class imbalance.
   - Non-parametric approach worked reasonably well but lacked the interpretability of logistic regression.
 
-Decision Tree Results
-Visualization:
-•	The tree split first on Sex, then Pclass, and Fare, confirming the same insights seen in logistic regression.
-•	Clear path: Female + 1st class → high survival, Male + 3rd class → low survival.
-Performance Metrics:
-•	Accuracy: 77.97%
-•	Interpretability: High – easy to explain decisions visually using a tree diagram.
-Observations:
-•	The tree captured non-linear interactions between features.
-•	May overfit without pruning or cross-validation, though accuracy was comparable to logistic regression.
-<img width="468" height="644" alt="image" src="https://github.com/user-attachments/assets/3f995a34-851d-4f57-9d4e-00d68de99856" />
-
+- Decision Tree Results
+  
+  Visualization:
+  - The tree split first on Sex, then Pclass, and Fare, confirming the same insights seen in logistic regression.
+  - Clear path: Female + 1st class → high survival, Male + 3rd class → low survival.
+    
+  Performance Metrics:
+  - Accuracy: 77.97%
+  - Interpretability: High – easy to explain decisions visually using a tree diagram.
+    
+  Observations:
+  - The tree captured non-linear interactions between features.
+  - May overfit without pruning or cross-validation, though accuracy was comparable to logistic regression.
