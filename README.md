@@ -64,7 +64,7 @@ test.csv – Used for prediction
 ## Methodology
 
 This study uses supervised learning algorithms to classify passengers' survival based on features in the Titanic dataset. The three classification techniques applied are:
-[Logistic Regression](#Logistic Regression)
+[Logistic Regression](#logistic-regression)
 - K-Nearest Neighbours (KNN)
 - Decision Tree
   
@@ -82,7 +82,7 @@ c) Non-numeric variables were encoded as factors.
 
 d) Irrelevant columns like Name, Ticket, and Cabin were dropped.
 
-# Logistic Regression
+### Logistic Regression
   
 Logistic Regression is a probabilistic, linear classifier used for binary classification. It models the probability of survival (1) versus not surviving (0).
 
