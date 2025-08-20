@@ -246,7 +246,7 @@ Output :
 
 ## Conclusion and Summary
 
-This project used R to build and compare three classification models—Logistic Regression, KNN, and Decision Tree—to predict Titanic passenger survival. After cleaning and exploring the data, all models were evaluated on accuracy and interpretability.
+This project used R to build and compare three classification models—Logistic Regression, KNN, and Decision Tree to predict Titanic passenger survival. After cleaning and exploring the data, all models were evaluated on accuracy and interpretability.
 
 - Logistic Regression performed the best (79.1% accuracy, AUC = 0.84) and clearly showed that gender, class, and fare were key predictors.
 - KNN gave decent results (76.27%  accuracy) but was less interpretable.
